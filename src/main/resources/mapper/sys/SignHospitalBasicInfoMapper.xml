@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nykj.dataconversion.sys.mapper.SignHospitalBasicInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nykj.dataconversion.sys.entity.SignHospitalBasicInfo">
+        <result column="id" property="id"/>
+        <result column="web_org_code" property="webOrgCode"/>
+        <result column="web_org_name" property="webOrgName"/>
+        <result column="org_code" property="orgCode"/>
+        <result column="org_name" property="orgName"/>
+        <result column="nature" property="nature"/>
+        <result column="org_level" property="orgLevel"/>
+        <result column="org_tel" property="orgTel"/>
+        <result column="org_principa_name" property="orgPrincipaName"/>
+        <result column="org_principa_tel" property="orgPrincipaTel"/>
+        <result column="address" property="address"/>
+        <result column="org_comment" property="orgComment"/>
+        <result column="sign_time" property="signTime"/>
+        <result column="sign_life" property="signLife"/>
+        <result column="created_last" property="createdLast"/>
+        <result column="updated_last" property="updatedLast"/>
+        <result column="data_from" property="dataFrom"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        web_org_code, web_org_name, org_code, org_name, nature, org_level, org_tel, org_principa_name, org_principa_tel, address, org_comment, sign_time, sign_life, created_last, updated_last, data_from
+    </sql>
+
+</mapper>

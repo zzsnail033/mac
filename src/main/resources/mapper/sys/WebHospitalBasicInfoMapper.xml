@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nykj.dataconversion.sys.mapper.WebHospitalBasicInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nykj.dataconversion.sys.entity.WebHospitalBasicInfo">
+        <result column="id" property="id"/>
+        <result column="org_code" property="orgCode"/>
+        <result column="org_name" property="orgName"/>
+        <result column="org_address" property="orgAddress"/>
+        <result column="org_contact_name" property="orgContactName"/>
+        <result column="org_tel" property="orgTel"/>
+        <result column="org_principa_name" property="orgPrincipaName"/>
+        <result column="date_start" property="dateStart"/>
+        <result column="date_end" property="dateEnd"/>
+        <result column="economic_attribute" property="economicAttribute"/>
+        <result column="org_category" property="orgCategory"/>
+        <result column="org_level" property="orgLevel"/>
+        <result column="org_grade" property="orgGrade"/>
+        <result column="auth_beds" property="authBeds"/>
+        <result column="avg_actual_beds" property="avgActualBeds"/>
+        <result column="org_comment" property="orgComment"/>
+        <result column="dept_comment_list" property="deptCommentList"/>
+        <result column="hos_digital_sign" property="hosDigitalSign"/>
+        <result column="record_feasibility" property="recordFeasibility"/>
+        <result column="record_prove" property="recordProve"/>
+        <result column="record_rules_list" property="recordRulesList"/>
+        <result column="record_topology" property="recordTopology"/>
+        <result column="file_list" property="fileList"/>
+        <result column="created_last" property="createdLast"/>
+        <result column="updated_last" property="updatedLast"/>
+        <result column="data_from" property="dataFrom"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        org_code, org_name, org_address, org_contact_name, org_tel, org_principa_name, date_start, date_end, economic_attribute, org_category, org_level, org_grade, auth_beds, avg_actual_beds, org_comment, dept_comment_list, hos_digital_sign, record_feasibility, record_prove, record_rules_list, record_topology, file_list, created_last, updated_last, data_from
+    </sql>
+
+</mapper>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nykj.dataconversion.sys.mapper.DoctorBasicInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nykj.dataconversion.sys.entity.DoctorBasicInfo">
+        <result column="id" property="id"/>
+        <result column="org_code" property="orgCode"/>
+        <result column="org_name" property="orgName"/>
+        <result column="org_reg_no" property="orgRegNo"/>
+        <result column="org_address" property="orgAddress"/>
+        <result column="org_postal_code" property="orgPostalCode"/>
+        <result column="org_tel" property="orgTel"/>
+        <result column="in_doc_code" property="inDocCode"/>
+        <result column="doc_type" property="docType"/>
+        <result column="doc_name" property="docName"/>
+        <result column="ge_code" property="geCode"/>
+        <result column="ge_name" property="geName"/>
+        <result column="nation_code" property="nationCode"/>
+        <result column="nation_name" property="nationName"/>
+        <result column="doc_birthdate" property="docBirthdate"/>
+        <result column="doc_address" property="docAddress"/>
+        <result column="doc_postal_code" property="docPostalCode"/>
+        <result column="doc_edu" property="docEdu"/>
+        <result column="doc_position" property="docPosition"/>
+        <result column="doc_comment" property="docComment"/>
+        <result column="title_code" property="titleCode"/>
+        <result column="title_name" property="titleName"/>
+        <result column="health_condition" property="healthCondition"/>
+        <result column="appraisal_content" property="appraisalContent"/>
+        <result column="punish_content" property="punishContent"/>
+        <result column="other_content" property="otherContent"/>
+        <result column="work_experience_list" property="workExperienceList"/>
+        <result column="work_inst_code" property="workInstCode"/>
+        <result column="work_inst_name" property="workInstName"/>
+        <result column="doc_dept_code" property="docDeptCode"/>
+        <result column="doc_dept_name" property="docDeptName"/>
+        <result column="doc_tel" property="docTel"/>
+        <result column="id_card" property="idCard"/>
+        <result column="prac_no" property="pracNo"/>
+        <result column="prac_rec_date" property="pracRecDate"/>
+        <result column="cert_no" property="certNo"/>
+        <result column="cert_rec_date" property="certRecDate"/>
+        <result column="prac_level" property="pracLevel"/>
+        <result column="title_no" property="titleNo"/>
+        <result column="title_rec_date" property="titleRecDate"/>
+        <result column="prac_type" property="pracType"/>
+        <result column="prac_scope_approval" property="pracScopeApproval"/>
+        <result column="qualify_or_not" property="qualifyOrNot"/>
+        <result column="professional" property="professional"/>
+        <result column="agree_terms" property="agreeTerms"/>
+        <result column="doc_multi_sited_date_start" property="docMultiSitedDateStart"/>
+        <result column="doc_multi_sited_date_end" property="docMultiSitedDateEnd"/>
+        <result column="hos_opinion" property="hosOpinion"/>
+        <result column="hos_digital_sign" property="hosDigitalSign"/>
+        <result column="hos_opinion_date" property="hosOpinionDate"/>
+        <result column="med_price_list" property="medPriceList"/>
+        <result column="employ_files_list" property="employFilesList"/>
+        <result column="digital_sign" property="digitalSign"/>
+        <result column="record_flag" property="recordFlag"/>
+        <result column="hos_confirm_flag" property="hosConfirmFlag"/>
+        <result column="pres_record_flag" property="presRecordFlag"/>
+        <result column="doc_multi_sited_record_list" property="docMultiSitedRecordList"/>
+        <result column="id_card_list" property="idCardList"/>
+        <result column="cert_doc_prac_list" property="certDocPracList"/>
+        <result column="title_cert_list" property="titleCertList"/>
+        <result column="doc_cert_list" property="docCertList"/>
+        <result column="doc_photo" property="docPhoto"/>
+        <result column="created_last" property="createdLast"/>
+        <result column="updated_last" property="updatedLast"/>
+        <result column="data_from" property="dataFrom"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        org_code, org_name, org_reg_no, org_address, org_postal_code, org_tel, in_doc_code, doc_type, doc_name, ge_code, ge_name, nation_code, nation_name, doc_birthdate, doc_address, doc_postal_code, doc_edu, doc_position, doc_comment, title_code, title_name, health_condition, appraisal_content, punish_content, other_content, work_experience_list, work_inst_code, work_inst_name, doc_dept_code, doc_dept_name, doc_tel, id_card, prac_no, prac_rec_date, cert_no, cert_rec_date, prac_level, title_no, title_rec_date, prac_type, prac_scope_approval, qualify_or_not, professional, agree_terms, doc_multi_sited_date_start, doc_multi_sited_date_end, hos_opinion, hos_digital_sign, hos_opinion_date, med_price_list, employ_files_list, digital_sign, record_flag, hos_confirm_flag, pres_record_flag, doc_multi_sited_record_list, id_card_list, cert_doc_prac_list, title_cert_list, doc_cert_list, doc_photo, created_last, updated_last, data_from
+    </sql>
+
+</mapper>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nykj.dataconversion.sys.mapper.PrescriptionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nykj.dataconversion.sys.entity.Prescription">
+        <result column="id" property="id"/>
+        <result column="pres_no" property="presNo"/>
+        <result column="pres_class_code" property="presClassCode"/>
+        <result column="pres_class_name" property="presClassName"/>
+        <result column="pt_id" property="ptId"/>
+        <result column="med_rd_no" property="medRdNo"/>
+        <result column="med_class_code" property="medClassCode"/>
+        <result column="med_class_name" property="medClassName"/>
+        <result column="pt_no" property="ptNo"/>
+        <result column="ge_code" property="geCode"/>
+        <result column="ge_name" property="geName"/>
+        <result column="pt_age" property="ptAge"/>
+        <result column="birthday" property="birthday"/>
+        <result column="id_no" property="idNo"/>
+        <result column="pt_tel" property="ptTel"/>
+        <result column="pt_district" property="ptDistrict"/>
+        <result column="ins_class_code" property="insClassCode"/>
+        <result column="ins_class_name" property="insClassName"/>
+        <result column="org_code" property="orgCode"/>
+        <result column="org_name" property="orgName"/>
+        <result column="visit_dept_code" property="visitDeptCode"/>
+        <result column="visit_dept_name" property="visitDeptName"/>
+        <result column="pres_dept_code" property="presDeptCode"/>
+        <result column="pres_dept_name" property="presDeptName"/>
+        <result column="pres_time" property="presTime"/>
+        <result column="pres_doc_code" property="presDocCode"/>
+        <result column="pres_doc_name" property="presDocName"/>
+        <result column="pres_doc_phote_data" property="presDocPhoteData"/>
+        <result column="review_time" property="reviewTime"/>
+        <result column="review_doc_code" property="reviewDocCode"/>
+        <result column="review_doc_name" property="reviewDocName"/>
+        <result column="trial_time" property="trialTime"/>
+        <result column="trial_doc_code" property="trialDocCode"/>
+        <result column="trial_doc_name" property="trialDocName"/>
+        <result column="diag_code_type" property="diagCodeType"/>
+        <result column="diseases_code" property="diseasesCode"/>
+        <result column="diseases_name" property="diseasesName"/>
+        <result column="diseases_type" property="diseasesType"/>
+        <result column="mobility_flag" property="mobilityFlag"/>
+        <result column="long_medical_flag" property="longMedicalFlag"/>
+        <result column="pres_effec_days" property="presEffecDays"/>
+        <result column="total_price" property="totalPrice"/>
+        <result column="pres_photos_list" property="presPhotosList"/>
+        <result column="created_last" property="createdLast"/>
+        <result column="updated_last" property="updatedLast"/>
+        <result column="data_from" property="dataFrom"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        pres_no, pres_class_code, pres_class_name, pt_id, med_rd_no, med_class_code, med_class_name, pt_no, ge_code, ge_name, pt_age, birthday, id_no, pt_tel, pt_district, ins_class_code, ins_class_name, org_code, org_name, visit_dept_code, visit_dept_name, pres_dept_code, pres_dept_name, pres_time, pres_doc_code, pres_doc_name, pres_doc_phote_data, review_time, review_doc_code, review_doc_name, trial_time, trial_doc_code, trial_doc_name, diag_code_type, diseases_code, diseases_name, diseases_type, mobility_flag, long_medical_flag, pres_effec_days, total_price, pres_photos_list, created_last, updated_last, data_from
+    </sql>
+
+</mapper>

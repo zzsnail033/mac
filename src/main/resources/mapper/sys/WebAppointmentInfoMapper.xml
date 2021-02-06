@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nykj.dataconversion.sys.mapper.WebAppointmentInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nykj.dataconversion.sys.entity.WebAppointmentInfo">
+        <result column="id" property="id"/>
+        <result column="org_code" property="orgCode"/>
+        <result column="org_name" property="orgName"/>
+        <result column="appoint_no" property="appointNo"/>
+        <result column="pt_id" property="ptId"/>
+        <result column="pt_no" property="ptNo"/>
+        <result column="ge_code" property="geCode"/>
+        <result column="ge_name" property="geName"/>
+        <result column="pt_age" property="ptAge"/>
+        <result column="pt_birthdate" property="ptBirthdate"/>
+        <result column="id_no" property="idNo"/>
+        <result column="pt_tel" property="ptTel"/>
+        <result column="pt_district" property="ptDistrict"/>
+        <result column="appoint_org_code" property="appointOrgCode"/>
+        <result column="appoint_org_name" property="appointOrgName"/>
+        <result column="appoint_dept_code" property="appointDeptCode"/>
+        <result column="appoint_dept_name" property="appointDeptName"/>
+        <result column="appoint_doc_code" property="appointDocCode"/>
+        <result column="appoint_doc_name" property="appointDocName"/>
+        <result column="appoint_time" property="appointTime"/>
+        <result column="appoint_date" property="appointDate"/>
+        <result column="visit_time_scop" property="visitTimeScop"/>
+        <result column="cancel_flag" property="cancelFlag"/>
+        <result column="cancel_time" property="cancelTime"/>
+        <result column="created_last" property="createdLast"/>
+        <result column="updated_last" property="updatedLast"/>
+        <result column="data_from" property="dataFrom"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        org_code, org_name, appoint_no, pt_id, pt_no, ge_code, ge_name, pt_age, pt_birthdate, id_no, pt_tel, pt_district, appoint_org_code, appoint_org_name, appoint_dept_code, appoint_dept_name, appoint_doc_code, appoint_doc_name, appoint_time, appoint_date, visit_time_scop, cancel_flag, cancel_time, created_last, updated_last, data_from
+    </sql>
+
+</mapper>

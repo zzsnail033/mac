@@ -1,0 +1,1026 @@
+2021-02-04 11:04:26 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 32494 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 11:04:26 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 11:04:26 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 11:04:26 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 11:04:27 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 11:04:27 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 29 ms. Found 0 JDBC repository interfaces.
+2021-02-04 11:04:28 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 11:04:28 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 11:04:28 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 11:04:28 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 11:04:28 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 11:04:28 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1882 ms
+2021-02-04 11:04:28 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 11:04:28 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 11:04:28 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 11:04:28 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 11:04:28 [org.apache.juli.logging.DirectJDKLog:173] - Stopping service [Tomcat]
+2021-02-04 11:04:28 [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-04 13:35:32 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 33616 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 13:35:32 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 13:35:32 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 13:35:32 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 13:35:33 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 13:35:33 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 22 ms. Found 0 JDBC repository interfaces.
+2021-02-04 13:35:34 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 13:35:34 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:35:34 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 13:35:34 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 13:35:34 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 13:35:34 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1371 ms
+2021-02-04 13:35:34 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 13:35:34 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 13:35:35 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:35:35 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 13:35:35 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:35:35 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 13:35:35 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 3.927 seconds (JVM running for 5.064)
+2021-02-04 13:36:51 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:36:51 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 13:36:51 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 13:36:52 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 33616 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 13:36:52 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 13:36:52 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 13:36:52 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-02-04 13:36:52 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 13:36:52 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:36:52 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 13:36:52 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 13:36:52 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 13:36:52 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 279 ms
+2021-02-04 13:36:52 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 13:36:52 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-2} inited
+2021-02-04 13:36:53 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:36:53 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 13:36:53 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:36:53 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 13:36:53 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 1.327 seconds (JVM running for 82.648)
+2021-02-04 13:36:53 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 13:37:06 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:37:06 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-2} closing ...
+2021-02-04 13:37:06 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-2} closed
+2021-02-04 13:37:06 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 33616 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 13:37:06 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 13:37:06 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 13:37:06 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-02-04 13:37:06 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 13:37:06 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:37:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 13:37:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 13:37:06 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 13:37:06 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 261 ms
+2021-02-04 13:37:06 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 13:37:06 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-3} inited
+2021-02-04 13:37:06 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:37:07 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 13:37:07 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:37:07 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 13:37:07 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 0.783 seconds (JVM running for 96.313)
+2021-02-04 13:37:07 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 13:37:12 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:37:12 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-3} closing ...
+2021-02-04 13:37:12 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-3} closed
+2021-02-04 13:37:27 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 33665 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 13:37:27 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 13:37:27 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 13:37:27 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 13:37:28 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 13:37:28 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-02-04 13:37:29 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 13:37:29 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:37:29 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 13:37:29 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 13:37:29 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 13:37:29 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1373 ms
+2021-02-04 13:37:29 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 13:37:29 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 13:37:30 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 13:37:30 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 13:37:30 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:37:30 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 13:37:30 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:37:31 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 13:37:31 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 13:37:31 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 13:37:31 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 13:37:31 [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: selectUsingPOST_1
+2021-02-04 13:37:31 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 4.044 seconds (JVM running for 5.136)
+2021-02-04 13:38:14 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 13:38:14 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 13:38:14 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2021-02-04 13:38:14 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:17 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:17 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:17 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:19 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:19 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:19 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:20 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:20 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:21 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:21 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:21 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:21 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:21 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:38:25 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:09 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:40:09 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 13:40:09 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 13:40:27 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 33724 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 13:40:27 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 13:40:27 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 13:40:27 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 13:40:27 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 13:40:28 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2021-02-04 13:40:28 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 13:40:28 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:40:28 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 13:40:28 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 13:40:28 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 13:40:28 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1407 ms
+2021-02-04 13:40:28 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 13:40:28 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 13:40:29 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 13:40:29 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 13:40:29 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:40:29 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 13:40:30 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:40:30 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 13:40:30 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 13:40:30 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 13:40:30 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 13:40:30 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 4.168 seconds (JVM running for 5.097)
+2021-02-04 13:40:30 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 13:40:30 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 13:40:30 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:31 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:49 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:40:50 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:41:01 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:43:03 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:43:03 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:43:03 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:43:03 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:43:03 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:43:03 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:44:24 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:44:30 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:44:30 [com.nykj.dataconversion.filter.AuthFilter:32] - ---------------进入到AuthFilter---------------
+2021-02-04 13:44:54 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:44:54 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 13:44:54 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 13:45:14 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 33815 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 13:45:14 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 13:45:14 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 13:45:14 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 13:45:14 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 13:45:14 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2021-02-04 13:45:15 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 13:45:15 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:45:15 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 13:45:15 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 13:45:15 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 13:45:15 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1255 ms
+2021-02-04 13:45:15 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 13:45:15 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 13:45:16 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 13:45:16 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 13:45:16 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:45:16 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 13:45:17 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:45:17 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 13:45:17 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 13:45:17 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 13:45:17 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 13:45:17 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 3.727 seconds (JVM running for 4.764)
+2021-02-04 13:45:22 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 13:45:22 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 13:45:22 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 2 ms
+2021-02-04 13:45:29 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:47:22 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:47:24 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:47:25 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:47:25 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:47:30 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:47:41 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:50:10 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:50:25 [com.nykj.dataconversion.filter.DecryptFilter:72] - ---------------------解密后的数据，「{"json":{"dataFrom":"nykj","docName":"李四","idCard":"12345678911991","orgCode":"0001","orgName":"骨糖医院","punishReason":"没受过处罚","punishResult":"无结果","punishTime":1606752000000},"code":200}           」
+2021-02-04 13:50:34 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 13:52:36 [com.nykj.dataconversion.filter.DecryptFilter:72] - ---------------------解密后的数据，「{"json":{"dataFrom":"nykj","docName":"李四","idCard":"12345678911991","orgCode":"0001","orgName":"骨糖医院","punishReason":"没受过处罚","punishResult":"无结果","punishTime":1606752000000},"code":200}           」
+2021-02-04 13:59:34 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:59:34 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 13:59:34 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 13:59:34 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 33815 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 13:59:34 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 13:59:35 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 13:59:35 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-02-04 13:59:35 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 13:59:35 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:59:35 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 13:59:35 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 13:59:35 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 13:59:35 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 405 ms
+2021-02-04 13:59:35 [org.apache.juli.logging.DirectJDKLog:173] - Stopping service [Tomcat]
+2021-02-04 13:59:35 [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-04 13:59:37 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 33815 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 13:59:37 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 13:59:37 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 13:59:37 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-02-04 13:59:37 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 13:59:37 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:59:37 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 13:59:37 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 13:59:37 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 13:59:37 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 368 ms
+2021-02-04 13:59:38 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 13:59:38 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-2} inited
+2021-02-04 13:59:38 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 13:59:38 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 13:59:38 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:59:38 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 13:59:38 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:59:38 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 13:59:38 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 13:59:38 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 13:59:38 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 13:59:38 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 1.014 seconds (JVM running for 866.186)
+2021-02-04 13:59:38 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 13:59:39 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:59:39 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-2} closing ...
+2021-02-04 13:59:39 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-2} closed
+2021-02-04 13:59:55 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 34015 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 13:59:55 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 13:59:55 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 13:59:55 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 13:59:56 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 13:59:56 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+2021-02-04 13:59:57 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 13:59:57 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:59:57 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 13:59:57 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 13:59:57 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 13:59:57 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1561 ms
+2021-02-04 13:59:57 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 13:59:57 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 13:59:59 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 13:59:59 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 13:59:59 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 13:59:59 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 13:59:59 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 13:59:59 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 13:59:59 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 13:59:59 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 13:59:59 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 13:59:59 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 4.973 seconds (JVM running for 6.104)
+2021-02-04 14:00:04 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 14:00:04 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 14:00:04 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 2 ms
+2021-02-04 14:00:04 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:00:09 [com.nykj.dataconversion.filter.DecryptFilter:72] - ---------------------解密后的数据，「{"json":{"dataFrom":"nykj","docName":"李四","idCard":"12345678911991","orgCode":"0001","orgName":"骨糖医院","punishReason":"没受过处罚","punishResult":"无结果","punishTime":1606752000000},"code":200}           」
+2021-02-04 14:00:22 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:00:24 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:00:39 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:01:08 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:01:14 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:01:20 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:01:34 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:01:58 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:02:11 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:03:15 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:03:24 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:06:05 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 14:06:05 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 14:06:05 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 14:06:06 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 34015 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 14:06:06 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 14:06:06 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 14:06:06 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2021-02-04 14:06:06 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 14:06:06 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 14:06:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 14:06:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 14:06:06 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 14:06:06 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 486 ms
+2021-02-04 14:06:06 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 14:06:06 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-2} inited
+2021-02-04 14:06:07 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 14:06:07 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 14:06:07 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 14:06:07 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 14:06:07 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 14:06:07 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 14:06:07 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 14:06:07 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 14:06:07 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 14:06:07 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 1.184 seconds (JVM running for 373.484)
+2021-02-04 14:06:07 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 14:06:08 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 14:06:08 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-2} closing ...
+2021-02-04 14:06:08 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-2} closed
+2021-02-04 14:06:09 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 34015 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 14:06:09 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 14:06:09 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 14:06:09 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2021-02-04 14:06:09 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 14:06:09 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 14:06:09 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 14:06:09 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 14:06:09 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 14:06:09 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 379 ms
+2021-02-04 14:06:09 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 14:06:09 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-3} inited
+2021-02-04 14:06:09 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 14:06:09 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 14:06:09 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 14:06:09 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 14:06:10 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 14:06:10 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 14:06:10 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 14:06:10 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 14:06:10 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 14:06:10 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 1.077 seconds (JVM running for 376.21)
+2021-02-04 14:06:10 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 14:06:14 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 14:06:14 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 14:06:14 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2021-02-04 14:06:14 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:07:16 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:07:30 [com.nykj.dataconversion.filter.DecryptFilter:72] - ---------------------解密后的数据，「{"json":{"dataFrom":"nykj","docName":"李四","idCard":"12345678911991","orgCode":"0001","orgName":"骨糖医院","punishReason":"没受过处罚","punishResult":"无结果","punishTime":1606752000000},"code":200}           」
+2021-02-04 14:07:49 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:08:29 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:08:56 [com.nykj.dataconversion.filter.DecryptFilter:72] - ---------------------解密后的数据，「{"json":{"dataFrom":"nykj","docName":"李四","idCard":"12345678911991","orgCode":"0001","orgName":"骨糖医院","punishReason":"没受过处罚","punishResult":"无结果","punishTime":1606752000000},"code":200}           」
+2021-02-04 14:09:20 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:10:17 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 14:10:17 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-3} closing ...
+2021-02-04 14:10:17 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-3} closed
+2021-02-04 14:10:18 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 34015 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 14:10:18 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 14:10:18 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 14:10:18 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-02-04 14:10:18 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 14:10:18 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 14:10:18 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 14:10:18 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 14:10:18 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 14:10:18 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 420 ms
+2021-02-04 14:10:18 [org.apache.juli.logging.DirectJDKLog:173] - Stopping service [Tomcat]
+2021-02-04 14:10:18 [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-04 14:10:46 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 34015 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 14:10:46 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 14:10:46 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 14:10:46 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-02-04 14:10:46 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 14:10:46 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 14:10:46 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 14:10:46 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 14:10:46 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 14:10:46 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 325 ms
+2021-02-04 14:10:46 [org.apache.juli.logging.DirectJDKLog:173] - Stopping service [Tomcat]
+2021-02-04 14:10:46 [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-04 14:10:48 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 34015 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 14:10:48 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 14:10:48 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 14:10:48 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-02-04 14:10:48 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 14:10:48 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 14:10:48 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 14:10:48 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 14:10:48 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 14:10:48 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 329 ms
+2021-02-04 14:10:48 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 14:10:48 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-4} inited
+2021-02-04 14:10:49 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 14:10:49 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 14:10:49 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 14:10:49 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 14:10:49 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 14:10:49 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 14:10:49 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 14:10:49 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 14:10:49 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 14:10:49 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 0.967 seconds (JVM running for 655.486)
+2021-02-04 14:10:49 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 14:10:54 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 14:10:54 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 14:10:54 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 2 ms
+2021-02-04 14:10:54 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:11:01 [com.nykj.dataconversion.filter.DecryptFilter:73] - ---------------------解密后的数据，「{"json":{"dataFrom":"nykj","docName":"李四","idCard":"12345678911991","orgCode":"0001","orgName":"骨糖医院","punishReason":"没受过处罚","punishResult":"无结果","punishTime":1606752000000},"code":200}           」
+2021-02-04 14:11:19 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:11:47 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 14:11:51 [com.nykj.dataconversion.filter.DecryptFilter:73] - ---------------------解密后的数据，「{"json":{"dataFrom":"nykj","docName":"李四","idCard":"12345678911991","orgCode":"0001","orgName":"骨糖医院","punishReason":"没受过处罚","punishResult":"无结果","punishTime":1606752000000},"code":200}           」
+2021-02-04 14:13:52 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 14:13:52 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-4} closing ...
+2021-02-04 14:13:52 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-4} closed
+2021-02-04 20:31:24 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39228 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 20:31:24 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 20:31:24 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 20:31:24 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 20:31:25 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 20:31:25 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2021-02-04 20:31:26 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 20:31:26 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:31:26 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 20:31:26 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 20:31:26 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 20:31:26 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1661 ms
+2021-02-04 20:31:26 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 20:31:26 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 20:31:27 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 20:31:27 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 20:31:27 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:31:27 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 20:31:28 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:31:28 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 20:31:28 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 20:31:28 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 20:31:28 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 20:31:28 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 4.541 seconds (JVM running for 5.528)
+2021-02-04 20:34:00 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 20:34:00 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 20:34:00 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 2 ms
+2021-02-04 20:41:44 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:41:44 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 20:41:44 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 20:46:54 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39422 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 20:46:54 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 20:46:54 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 20:46:54 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 20:46:55 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 20:46:55 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 25 ms. Found 0 JDBC repository interfaces.
+2021-02-04 20:46:55 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 20:46:55 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:46:55 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 20:46:55 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 20:46:55 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 20:46:55 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1676 ms
+2021-02-04 20:46:56 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 20:46:56 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 20:46:57 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 20:46:57 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 20:46:57 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:46:57 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 20:46:58 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:46:58 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 20:46:58 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 20:46:58 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 20:46:58 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 20:46:58 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 4.909 seconds (JVM running for 5.817)
+2021-02-04 20:47:13 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 20:47:13 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 20:47:13 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 2 ms
+2021-02-04 20:47:13 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 20:47:17 [com.nykj.dataconversion.filter.DecryptFilter:73] - ---------------------解密后的数据，「{"json":{"dataFrom":"nykj","docName":"李四","idCard":"12345678911991","orgCode":"0001","orgName":"骨糖医院","punishReason":"没受过处罚","punishResult":"无结果","punishTime":1606752000000},"code":200}           」
+2021-02-04 20:47:45 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:47:45 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 20:47:45 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 20:47:45 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39422 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 20:47:45 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 20:47:45 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 20:47:45 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2021-02-04 20:47:45 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 20:47:45 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:47:45 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 20:47:45 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 20:47:45 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 20:47:45 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 379 ms
+2021-02-04 20:47:45 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 20:47:45 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-2} inited
+2021-02-04 20:47:46 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 20:47:46 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 20:47:46 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:47:46 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 20:47:46 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:47:46 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 20:47:46 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 20:47:46 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 20:47:46 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 20:47:46 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 1.37 seconds (JVM running for 54.249)
+2021-02-04 20:47:46 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 20:47:48 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:47:48 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-2} closing ...
+2021-02-04 20:47:48 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-2} closed
+2021-02-04 20:47:48 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39422 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 20:47:48 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 20:47:48 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 20:47:48 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2021-02-04 20:47:48 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 20:47:48 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:47:48 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 20:47:48 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 20:47:48 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 20:47:48 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 299 ms
+2021-02-04 20:47:48 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 20:47:48 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-3} inited
+2021-02-04 20:47:49 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 20:47:49 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 20:47:49 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:47:49 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 20:47:49 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:47:49 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 20:47:49 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 20:47:49 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 20:47:49 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 20:47:49 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 0.923 seconds (JVM running for 56.731)
+2021-02-04 20:47:49 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 20:47:50 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:47:50 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-3} closing ...
+2021-02-04 20:47:50 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-3} closed
+2021-02-04 20:48:04 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39459 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 20:48:04 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 20:48:05 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 20:48:05 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 20:48:05 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 20:48:05 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-02-04 20:48:06 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 20:48:06 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:48:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 20:48:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 20:48:06 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 20:48:06 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1268 ms
+2021-02-04 20:48:06 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 20:48:06 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 20:48:07 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 20:48:07 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 20:48:07 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:48:07 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 20:48:07 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:48:07 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 20:48:07 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 20:48:07 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 20:48:07 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 20:48:08 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 3.718 seconds (JVM running for 4.545)
+2021-02-04 20:48:14 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 20:48:14 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 20:48:14 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2021-02-04 20:48:14 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 20:48:22 [com.nykj.dataconversion.filter.DecryptFilter:73] - ---------------------解密后的数据，「{"json":{"dataFrom":"nykj","docName":"李四","idCard":"12345678911991","orgCode":"0001","orgName":"骨糖医院","punishReason":"没受过处罚","punishResult":"无结果","punishTime":1606752000000},"code":200}           」
+2021-02-04 20:49:03 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:49:03 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 20:49:03 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 20:49:03 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39459 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 20:49:03 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 20:49:03 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 20:49:03 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-02-04 20:49:03 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 20:49:03 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:49:03 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 20:49:03 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 20:49:03 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 20:49:03 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 344 ms
+2021-02-04 20:49:03 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 20:49:03 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-2} inited
+2021-02-04 20:49:04 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 20:49:04 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 20:49:04 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:49:04 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 20:49:04 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:49:04 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 20:49:04 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 20:49:04 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 20:49:04 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 20:49:04 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 1.319 seconds (JVM running for 61.095)
+2021-02-04 20:49:04 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 20:49:06 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:49:06 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-2} closing ...
+2021-02-04 20:49:06 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-2} closed
+2021-02-04 20:49:06 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39459 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 20:49:06 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 20:49:06 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 20:49:06 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-02-04 20:49:06 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 20:49:06 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:49:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 20:49:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 20:49:06 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 20:49:06 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 301 ms
+2021-02-04 20:49:06 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 20:49:06 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-3} inited
+2021-02-04 20:49:06 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 20:49:06 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 20:49:07 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 20:49:07 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 20:49:07 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 20:49:07 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 20:49:07 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 20:49:07 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 20:49:07 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 20:49:07 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 0.908 seconds (JVM running for 63.587)
+2021-02-04 20:49:07 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 20:55:16 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 20:55:16 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 20:55:16 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 3 ms
+2021-02-04 20:55:16 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 20:55:16 [com.nykj.dataconversion.filter.DecryptFilter:73] - ---------------------解密后的数据，「{"json":{"dataFrom":"nykj","docName":"李四","idCard":"12345678911991","orgCode":"0001","orgName":"骨糖医院","punishReason":"没受过处罚","punishResult":"无结果","punishTime":1606752000000},"code":200}           」
+2021-02-04 21:08:02 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:08:02 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-3} closing ...
+2021-02-04 21:08:02 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-3} closed
+2021-02-04 21:08:03 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39459 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 21:08:03 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 21:08:03 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 21:08:03 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-02-04 21:08:03 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 21:08:03 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:08:03 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 21:08:03 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 21:08:03 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 21:08:03 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 393 ms
+2021-02-04 21:08:03 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 21:08:03 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-4} inited
+2021-02-04 21:08:04 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 21:08:04 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 21:08:04 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:08:04 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 21:08:04 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:08:04 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 21:08:04 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 21:08:04 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 21:08:04 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 21:08:04 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 1.194 seconds (JVM running for 1200.649)
+2021-02-04 21:08:04 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 21:08:05 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:08:05 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-4} closing ...
+2021-02-04 21:08:05 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-4} closed
+2021-02-04 21:08:05 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39459 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 21:08:05 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 21:08:06 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 21:08:06 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2021-02-04 21:08:06 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 21:08:06 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:08:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 21:08:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 21:08:06 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 21:08:06 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 292 ms
+2021-02-04 21:08:06 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 21:08:06 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-5} inited
+2021-02-04 21:08:06 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 21:08:06 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 21:08:06 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:08:06 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 21:08:06 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:08:06 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 21:08:06 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 21:08:06 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 21:08:06 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 21:08:06 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 0.837 seconds (JVM running for 1203.116)
+2021-02-04 21:08:06 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 21:09:16 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:09:16 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-5} closing ...
+2021-02-04 21:09:16 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-5} closed
+2021-02-04 21:09:16 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39459 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 21:09:16 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 21:09:17 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 21:09:17 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-02-04 21:09:17 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 21:09:17 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:09:17 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 21:09:17 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 21:09:17 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 21:09:17 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 299 ms
+2021-02-04 21:09:17 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 21:09:17 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-6} inited
+2021-02-04 21:09:17 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 21:09:17 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 21:09:17 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:09:17 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 21:09:18 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:09:18 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 21:09:18 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 21:09:18 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 21:09:18 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 21:09:18 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 1.389 seconds (JVM running for 1274.65)
+2021-02-04 21:09:18 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 21:09:19 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:09:19 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-6} closing ...
+2021-02-04 21:09:19 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-6} closed
+2021-02-04 21:09:19 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39459 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 21:09:19 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 21:09:20 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 21:09:20 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-02-04 21:09:20 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 21:09:20 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:09:20 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 21:09:20 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 21:09:20 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 21:09:20 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 312 ms
+2021-02-04 21:09:20 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 21:09:20 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-7} inited
+2021-02-04 21:09:20 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 21:09:20 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 21:09:20 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:09:20 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 21:09:20 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:09:20 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 21:09:20 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 21:09:20 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 21:09:20 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 21:09:20 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 0.891 seconds (JVM running for 1277.135)
+2021-02-04 21:09:20 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 21:12:27 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:12:27 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-7} closing ...
+2021-02-04 21:12:27 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-7} closed
+2021-02-04 21:12:27 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39459 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 21:12:27 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 21:12:27 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 21:12:27 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-02-04 21:12:27 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 21:12:27 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:12:27 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 21:12:27 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 21:12:27 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 21:12:27 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 329 ms
+2021-02-04 21:12:28 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 21:12:28 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-8} inited
+2021-02-04 21:12:28 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 21:12:28 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 21:12:28 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:12:28 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 21:12:28 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:12:28 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 21:12:28 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 21:12:28 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 21:12:28 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 21:12:28 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 0.895 seconds (JVM running for 1464.954)
+2021-02-04 21:12:28 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 21:14:53 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:14:53 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-8} closing ...
+2021-02-04 21:14:53 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-8} closed
+2021-02-04 21:14:53 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39459 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 21:14:53 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 21:14:53 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 21:14:53 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-02-04 21:14:53 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 21:14:53 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:14:53 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 21:14:53 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 21:14:53 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 21:14:53 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 322 ms
+2021-02-04 21:14:53 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 21:14:53 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-9} inited
+2021-02-04 21:14:54 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 21:14:54 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 21:14:54 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:14:54 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 21:14:54 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:14:54 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 21:14:54 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 21:14:54 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 21:14:54 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 21:14:54 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 0.941 seconds (JVM running for 1610.896)
+2021-02-04 21:14:54 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 21:22:54 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:22:54 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-9} closing ...
+2021-02-04 21:22:54 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-9} closed
+2021-02-04 21:23:13 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 39970 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 21:23:13 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 21:23:13 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 21:23:13 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 21:23:14 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 21:23:14 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2021-02-04 21:23:14 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 21:23:14 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:23:14 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 21:23:14 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 21:23:14 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 21:23:14 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1218 ms
+2021-02-04 21:23:15 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 21:23:15 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 21:23:16 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 21:23:16 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 21:23:16 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:23:16 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 21:23:16 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:23:16 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 21:23:16 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 21:23:16 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 21:23:16 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 21:23:16 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 3.674 seconds (JVM running for 4.534)
+2021-02-04 21:23:29 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 21:23:29 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 21:23:29 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2021-02-04 21:23:48 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:23:48 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 21:23:48 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 21:40:27 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 40163 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 21:40:27 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 21:40:27 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 21:40:27 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 21:40:28 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 21:40:28 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-02-04 21:40:29 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 21:40:29 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:40:29 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 21:40:29 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 21:40:29 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 21:40:29 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1466 ms
+2021-02-04 21:40:29 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 21:40:29 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 21:40:30 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 21:40:30 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 21:40:30 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:40:30 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 21:40:31 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:40:31 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 21:40:31 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 21:40:31 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 21:40:31 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 21:40:31 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 4.403 seconds (JVM running for 5.405)
+2021-02-04 21:40:37 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 21:40:37 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 21:40:37 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2021-02-04 21:49:09 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:49:09 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 21:49:09 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 21:49:09 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 40163 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 21:49:09 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 21:49:09 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 21:49:09 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2021-02-04 21:49:09 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 21:49:09 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:49:09 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 21:49:09 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 21:49:09 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 21:49:09 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 386 ms
+2021-02-04 21:49:10 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 21:49:10 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-2} inited
+2021-02-04 21:49:10 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 21:49:10 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 21:49:10 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:49:10 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 21:49:10 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 21:49:10 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 21:49:10 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 21:49:10 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 21:49:10 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 21:49:10 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 1.508 seconds (JVM running for 524.668)
+2021-02-04 21:49:10 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 21:54:38 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 21:54:38 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-2} closing ...
+2021-02-04 21:54:38 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-2} closed
+2021-02-04 22:31:32 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 40851 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 22:31:32 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 22:31:32 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-04 22:31:32 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-04 22:31:32 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 22:31:32 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-02-04 22:31:33 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9000 (http)
+2021-02-04 22:31:33 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9000"]
+2021-02-04 22:31:33 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 22:31:33 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 22:31:33 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 22:31:33 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1361 ms
+2021-02-04 22:31:33 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 22:31:33 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-04 22:31:34 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 22:31:34 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 22:31:35 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 22:31:35 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 22:31:35 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9000"]
+2021-02-04 22:31:35 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9000 (http) with context path '/data-conversion'
+2021-02-04 22:31:35 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 22:31:35 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 22:31:35 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 22:31:35 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 4.532 seconds (JVM running for 5.572)
+2021-02-04 22:33:53 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 22:33:53 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-04 22:33:53 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2021-02-04 22:33:53 [com.nykj.dataconversion.filter.DecryptFilter:32] - ---------------进入到DecryptFilter---------------
+2021-02-04 22:50:28 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 22:50:28 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-04 22:50:28 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-04 22:50:28 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 40851 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-04 22:50:28 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-04 22:50:28 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-04 22:50:28 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-02-04 22:50:28 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9001 (http)
+2021-02-04 22:50:28 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-04 22:50:28 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-04 22:50:28 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-04 22:50:28 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-04 22:50:28 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 347 ms
+2021-02-04 22:50:29 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-04 22:50:29 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-2} inited
+2021-02-04 22:50:29 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-04 22:50:29 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-04 22:50:29 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 22:50:29 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-04 22:50:29 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9001"]
+2021-02-04 22:50:29 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9001 (http) with context path '/dataConversion'
+2021-02-04 22:50:29 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-04 22:50:29 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-04 22:50:29 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-04 22:50:29 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 1.45 seconds (JVM running for 1139.693)
+2021-02-04 22:50:29 [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+2021-02-04 22:50:48 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 22:50:48 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-2} closing ...
+2021-02-04 22:50:48 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-2} closed

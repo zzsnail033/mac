@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nykj.dataconversion.sys.mapper.WebHospitalEqpInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nykj.dataconversion.sys.entity.WebHospitalEqpInfo">
+        <result column="id" property="id"/>
+        <result column="org_code" property="orgCode"/>
+        <result column="org_name" property="orgName"/>
+        <result column="fill_date" property="fillDate"/>
+        <result column="remote_clinic_eqp_list" property="remoteClinicEqpList"/>
+        <result column="remote_consult_eqp_list" property="remoteConsultEqpList"/>
+        <result column="remote_ecg_eqp_list" property="remoteEcgEqpList"/>
+        <result column="remote_image_eqp_list" property="remoteImageEqpList"/>
+        <result column="remote_pathol_eqp_list" property="remotePatholEqpList"/>
+        <result column="other_eqp_list" property="otherEqpList"/>
+        <result column="file_list" property="fileList"/>
+        <result column="created_last" property="createdLast"/>
+        <result column="updated_last" property="updatedLast"/>
+        <result column="data_from" property="dataFrom"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        org_code, org_name, fill_date, remote_clinic_eqp_list, remote_consult_eqp_list, remote_ecg_eqp_list, remote_image_eqp_list, remote_pathol_eqp_list, other_eqp_list, file_list, created_last, updated_last, data_from
+    </sql>
+
+</mapper>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nykj.dataconversion.sys.mapper.WebCheckupAppointmentInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nykj.dataconversion.sys.entity.WebCheckupAppointmentInfo">
+        <result column="id" property="id"/>
+        <result column="org_code" property="orgCode"/>
+        <result column="org_name" property="orgName"/>
+        <result column="pt_id" property="ptId"/>
+        <result column="pt_no" property="ptNo"/>
+        <result column="ge_code" property="geCode"/>
+        <result column="ge_name" property="geName"/>
+        <result column="pt_age" property="ptAge"/>
+        <result column="pt_birthdate" property="ptBirthdate"/>
+        <result column="valid_cert_code" property="validCertCode"/>
+        <result column="valid_cert_name" property="validCertName"/>
+        <result column="id_no" property="idNo"/>
+        <result column="pt_tel" property="ptTel"/>
+        <result column="pt_district" property="ptDistrict"/>
+        <result column="checkup_org_code" property="checkupOrgCode"/>
+        <result column="checkup_org_name" property="checkupOrgName"/>
+        <result column="appoint_no" property="appointNo"/>
+        <result column="appoint_time" property="appointTime"/>
+        <result column="appoint_date" property="appointDate"/>
+        <result column="visit_time_scop" property="visitTimeScop"/>
+        <result column="cancel_flag" property="cancelFlag"/>
+        <result column="cancel_time" property="cancelTime"/>
+        <result column="updated_last" property="updatedLast"/>
+        <result column="data_from" property="dataFrom"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        org_code, org_name, pt_id, pt_no, ge_code, ge_name, pt_age, pt_birthdate, valid_cert_code, valid_cert_name, id_no, pt_tel, pt_district, checkup_org_code, checkup_org_name, appoint_no, appoint_time, appoint_date, visit_time_scop, cancel_flag, cancel_time, updated_last, data_from
+    </sql>
+
+</mapper>

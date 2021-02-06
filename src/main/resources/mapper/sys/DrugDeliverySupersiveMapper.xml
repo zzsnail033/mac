@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nykj.dataconversion.sys.mapper.DrugDeliverySupersiveMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nykj.dataconversion.sys.entity.DrugDeliverySupersive">
+        <result column="id" property="id"/>
+        <result column="org_code" property="orgCode"/>
+        <result column="org_name" property="orgName"/>
+        <result column="pres_no" property="presNo"/>
+        <result column="pres_doc_code" property="presDocCode"/>
+        <result column="pres_doc_name" property="presDocName"/>
+        <result column="trial_doc_code" property="trialDocCode"/>
+        <result column="trial_doc_name" property="trialDocName"/>
+        <result column="drug_e_commere_code" property="drugECommereCode"/>
+        <result column="drug_e_commere_name" property="drugECommereName"/>
+        <result column="sale_method" property="saleMethod"/>
+        <result column="confirm_man_code" property="confirmManCode"/>
+        <result column="confirm_man_name" property="confirmManName"/>
+        <result column="confirm_time" property="confirmTime"/>
+        <result column="sale_operator_code" property="saleOperatorCode"/>
+        <result column="sale_operator_name" property="saleOperatorName"/>
+        <result column="self_take_time" property="selfTakeTime"/>
+        <result column="delivery_order_man_code" property="deliveryOrderManCode"/>
+        <result column="delivery_order_man_name" property="deliveryOrderManName"/>
+        <result column="delivery_order_time" property="deliveryOrderTime"/>
+        <result column="delivery_org_code" property="deliveryOrgCode"/>
+        <result column="delivery_org_name" property="deliveryOrgName"/>
+        <result column="delivery_man" property="deliveryMan"/>
+        <result column="delivery_man_tel" property="deliveryManTel"/>
+        <result column="delivery_time" property="deliveryTime"/>
+        <result column="delivery_arrival_time" property="deliveryArrivalTime"/>
+        <result column="on_time_flag" property="onTimeFlag"/>
+        <result column="error_flag" property="errorFlag"/>
+        <result column="error_reason" property="errorReason"/>
+        <result column="created_last" property="createdLast"/>
+        <result column="updated_last" property="updatedLast"/>
+        <result column="data_from" property="dataFrom"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        org_code, org_name, pres_no, pres_doc_code, pres_doc_name, trial_doc_code, trial_doc_name, drug_e_commere_code, drug_e_commere_name, sale_method, confirm_man_code, confirm_man_name, confirm_time, sale_operator_code, sale_operator_name, self_take_time, delivery_order_man_code, delivery_order_man_name, delivery_order_time, delivery_org_code, delivery_org_name, delivery_man, delivery_man_tel, delivery_time, delivery_arrival_time, on_time_flag, error_flag, error_reason, created_last, updated_last, data_from
+    </sql>
+
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nykj.dataconversion.sys.mapper.WebEmrSuperviseInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nykj.dataconversion.sys.entity.WebEmrSuperviseInfo">
+        <result column="id" property="id"/>
+        <result column="org_code" property="orgCode"/>
+        <result column="org_name" property="orgName"/>
+        <result column="record_doc_code" property="recordDocCode"/>
+        <result column="record_doc_name" property="recordDocName"/>
+        <result column="pt_id" property="ptId"/>
+        <result column="med_rd_no" property="medRdNo"/>
+        <result column="mr_file_index_list" property="mrFileIndexList"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="created_last" property="createdLast"/>
+        <result column="updated_last" property="updatedLast"/>
+        <result column="data_from" property="dataFrom"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        org_code, org_name, record_doc_code, record_doc_name, pt_id, med_rd_no, mr_file_index_list, create_time, update_time, created_last, updated_last, data_from
+    </sql>
+
+</mapper>

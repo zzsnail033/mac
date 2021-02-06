@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nykj.dataconversion.sys.mapper.WebTherapySuperviseInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nykj.dataconversion.sys.entity.WebTherapySuperviseInfo">
+        <result column="id" property="id"/>
+        <result column="org_code" property="orgCode"/>
+        <result column="org_name" property="orgName"/>
+        <result column="visit_time" property="visitTime"/>
+        <result column="visit_finish_time" property="visitFinishTime"/>
+        <result column="visit_dept_code" property="visitDeptCode"/>
+        <result column="visit_dept_name" property="visitDeptName"/>
+        <result column="visit_doc_code" property="visitDocCode"/>
+        <result column="visit_doc_name" property="visitDocName"/>
+        <result column="pt_id" property="ptId"/>
+        <result column="med_rd_no" property="medRdNo"/>
+        <result column="revisit_flag" property="revisitFlag"/>
+        <result column="first_visit_org_code" property="firstVisitOrgCode"/>
+        <result column="first_visit_org_name" property="firstVisitOrgName"/>
+        <result column="med_class_code" property="medClassCode"/>
+        <result column="med_class_name" property="medClassName"/>
+        <result column="price" property="price"/>
+        <result column="pt_no" property="ptNo"/>
+        <result column="ge_code" property="geCode"/>
+        <result column="ge_name" property="geName"/>
+        <result column="pt_age" property="ptAge"/>
+        <result column="pt_birthdate" property="ptBirthdate"/>
+        <result column="id_no" property="idNo"/>
+        <result column="pt_tel" property="ptTel"/>
+        <result column="pt_district" property="ptDistrict"/>
+        <result column="consult_doc_list" property="consultDocList"/>
+        <result column="diseases_code" property="diseasesCode"/>
+        <result column="diseases_name" property="diseasesName"/>
+        <result column="complaint_content" property="complaintContent"/>
+        <result column="present_illness" property="presentIllness"/>
+        <result column="past_history" property="pastHistory"/>
+        <result column="ask_or_med" property="askOrMed"/>
+        <result column="proc_index_list" property="procIndexList"/>
+        <result column="created_last" property="createdLast"/>
+        <result column="updated_last" property="updatedLast"/>
+        <result column="data_from" property="dataFrom"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        org_code, org_name, visit_time, visit_finish_time, visit_dept_code, visit_dept_name, visit_doc_code, visit_doc_name, pt_id, med_rd_no, revisit_flag, first_visit_org_code, first_visit_org_name, med_class_code, med_class_name, price, pt_no, ge_code, ge_name, pt_age, pt_birthdate, id_no, pt_tel, pt_district, consult_doc_list, diseases_code, diseases_name, complaint_content, present_illness, past_history, ask_or_med, proc_index_list, created_last, updated_last, data_from
+    </sql>
+
+</mapper>

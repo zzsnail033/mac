@@ -1,0 +1,373 @@
+2021-02-05 10:04:57 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 44019 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-05 10:04:57 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-05 10:04:57 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 10:04:57 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-05 10:04:58 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-05 10:04:58 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2021-02-05 10:04:58 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9001 (http)
+2021-02-05 10:04:58 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:04:58 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-05 10:04:58 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 10:04:59 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-05 10:04:59 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1554 ms
+2021-02-05 10:04:59 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-05 10:04:59 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-05 10:05:00 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-05 10:05:00 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-05 10:05:00 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:05:00 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-05 10:05:01 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:05:01 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9001 (http) with context path '/dataConversion'
+2021-02-05 10:05:01 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-05 10:05:01 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-05 10:05:01 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-05 10:05:01 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 4.467 seconds (JVM running for 5.318)
+2021-02-05 10:05:50 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 10:05:50 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-05 10:05:50 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2021-02-05 10:15:35 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:15:35 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-05 10:15:35 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-05 10:15:47 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 44165 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-05 10:15:47 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-05 10:15:47 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 10:15:47 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-05 10:15:48 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-05 10:15:48 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2021-02-05 10:15:49 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9001 (http)
+2021-02-05 10:15:49 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:15:49 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-05 10:15:49 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 10:15:49 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-05 10:15:49 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1249 ms
+2021-02-05 10:15:49 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-05 10:15:49 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-05 10:15:50 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-05 10:15:50 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-05 10:15:50 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:15:50 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-05 10:15:50 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:15:50 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9001 (http) with context path '/dataConversion'
+2021-02-05 10:15:50 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-05 10:15:50 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-05 10:15:50 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-05 10:15:51 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 3.829 seconds (JVM running for 4.657)
+2021-02-05 10:15:56 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 10:15:56 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-05 10:15:56 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 2 ms
+2021-02-05 10:15:56 [com.nykj.dataconversion.filter.DecryptFilter:35] - ---------------进入到DecryptFilter---------------
+2021-02-05 10:18:03 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:18:03 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-05 10:18:03 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-05 10:18:26 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 44219 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-05 10:18:26 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-05 10:18:26 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 10:18:26 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-05 10:18:27 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-05 10:18:27 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-02-05 10:18:27 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9001 (http)
+2021-02-05 10:18:27 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:18:27 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-05 10:18:27 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 10:18:27 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-05 10:18:27 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1245 ms
+2021-02-05 10:18:27 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-05 10:18:28 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-05 10:18:29 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-05 10:18:29 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-05 10:18:29 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:18:29 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-05 10:18:29 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:18:29 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9001 (http) with context path '/dataConversion'
+2021-02-05 10:18:29 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-05 10:18:29 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-05 10:18:29 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-05 10:18:29 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 4.031 seconds (JVM running for 4.987)
+2021-02-05 10:18:39 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 10:18:39 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-05 10:18:39 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 2 ms
+2021-02-05 10:18:44 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/doc.html
+2021-02-05 10:20:09 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:20:09 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-05 10:20:09 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-05 10:20:44 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 44264 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-05 10:20:44 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-05 10:20:44 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 10:20:44 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-05 10:20:45 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-05 10:20:45 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2021-02-05 10:20:45 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9001 (http)
+2021-02-05 10:20:45 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:20:45 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-05 10:20:45 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 10:20:45 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-05 10:20:45 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1209 ms
+2021-02-05 10:20:45 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-05 10:20:45 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-05 10:20:46 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-05 10:20:46 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-05 10:20:46 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:20:46 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-05 10:20:47 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:20:47 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9001 (http) with context path '/dataConversion'
+2021-02-05 10:20:47 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-05 10:20:47 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-05 10:20:47 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-05 10:20:47 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 3.796 seconds (JVM running for 4.676)
+2021-02-05 10:20:59 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 10:20:59 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-05 10:20:59 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2021-02-05 10:21:02 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/doc.html
+2021-02-05 10:21:05 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/i18n.js
+2021-02-05 10:21:06 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/jquery-1.9.1.min.js
+2021-02-05 10:21:07 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace/bootstrap.min.js
+2021-02-05 10:21:07 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+2021-02-05 10:21:07 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/docco.css
+2021-02-05 10:21:07 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+2021-02-05 10:21:08 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/style.css
+2021-02-05 10:21:08 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/default.css
+2021-02-05 10:21:08 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+2021-02-05 10:21:08 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/css/layui.css
+2021-02-05 10:21:08 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/iconfont/iconfont.css
+2021-02-05 10:21:08 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/sbuadmin.css
+2021-02-05 10:21:09 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+2021-02-05 10:21:09 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+2021-02-05 10:21:09 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/editormd.min.css
+2021-02-05 10:21:09 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace/ace.min.js
+2021-02-05 10:21:09 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+2021-02-05 10:21:09 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/layer.js
+2021-02-05 10:21:10 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/highlight.pack.js
+2021-02-05 10:21:10 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/marked.js
+2021-02-05 10:21:10 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/template-web.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/layui.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/axios.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/async.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/showdown.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace-editor/ace.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/md5.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/jquery-1.9.1.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace/bootstrap.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace/ace.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/layer.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/style.css
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/docco.css
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/highlight.pack.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/default.css
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/marked.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/sbuadmin.css
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/css/layui.css
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/iconfont/iconfont.css
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/template-web.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/axios.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/layui.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace-editor/ace.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/showdown.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/async.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/md5.min.js
+2021-02-05 10:21:13 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/editormd.min.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/doc.html
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/i18n.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/jquery-1.9.1.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace/bootstrap.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace/ace.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/docco.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/style.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/default.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/iconfont/iconfont.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/sbuadmin.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/css/layui.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/editormd.min.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/layer.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/highlight.pack.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/marked.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace-editor/ace.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/axios.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/showdown.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/template-web.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/layui.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/docco.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/default.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/async.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/md5.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/style.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/marked.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/css/layui.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/template-web.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/iconfont/iconfont.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/sbuadmin.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/axios.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/layui.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace-editor/ace.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/showdown.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/async.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/md5.min.js
+2021-02-05 10:21:17 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/editormd.min.css
+2021-02-05 10:22:21 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:22:21 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-05 10:22:21 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-05 10:22:35 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 44311 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-05 10:22:35 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-05 10:22:35 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 10:22:35 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-05 10:22:35 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-05 10:22:35 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2021-02-05 10:22:36 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9001 (http)
+2021-02-05 10:22:36 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:22:36 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-05 10:22:36 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 10:22:36 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-05 10:22:36 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1288 ms
+2021-02-05 10:22:36 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-05 10:22:36 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-05 10:22:37 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-05 10:22:37 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-05 10:22:37 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:22:37 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-05 10:22:38 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:22:38 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9001 (http) with context path '/dataConversion'
+2021-02-05 10:22:38 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-05 10:22:38 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-05 10:22:38 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-05 10:22:38 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 3.944 seconds (JVM running for 4.808)
+2021-02-05 10:22:41 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 10:22:41 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-05 10:22:41 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 2 ms
+2021-02-05 10:22:41 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/doc.html
+2021-02-05 10:22:41 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/jquery-1.9.1.min.js
+2021-02-05 10:22:41 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/i18n.js
+2021-02-05 10:22:41 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace/bootstrap.min.js
+2021-02-05 10:22:41 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+2021-02-05 10:22:41 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace/ace.min.js
+2021-02-05 10:22:41 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+2021-02-05 10:22:41 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/style.css
+2021-02-05 10:22:41 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/docco.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/default.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/sbuadmin.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/iconfont/iconfont.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/css/layui.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/marked.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/layer.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/editormd.min.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/highlight.pack.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/template-web.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/axios.min.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/layui.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/md5.min.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/showdown.min.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/async.min.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace-editor/ace.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/sbuadmin.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/layer.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/element.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/treetable.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/table.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/laypage.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/form.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/util.js
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/swagger-resources
+2021-02-05 10:22:42 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/v2/api-docs
+2021-02-05 10:23:26 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:23:26 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-05 10:23:26 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
+2021-02-05 10:23:42 [org.springframework.boot.StartupInfoLogger:55] - Starting DataConversionApplication using Java 1.8.0_191 on zhangchaodeMacBook-Pro.local with PID 44347 (/Users/zhangchao/Projects/zhangchao/data-conversion/target/classes started by zhangchao in /Users/zhangchao/Projects/zhangchao/data-conversion)
+2021-02-05 10:23:42 [org.springframework.boot.SpringApplication:664] - The following profiles are active: dev
+2021-02-05 10:23:42 [org.springframework.boot.logging.DeferredLog:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 10:23:42 [org.springframework.boot.logging.DeferredLog:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-05 10:23:43 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-05 10:23:43 [org.springframework.data.repository.config.RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2021-02-05 10:23:43 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 9001 (http)
+2021-02-05 10:23:43 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:23:43 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2021-02-05 10:23:43 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 10:23:43 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2021-02-05 10:23:43 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1385 ms
+2021-02-05 10:23:43 [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] - Init DruidDataSource
+2021-02-05 10:23:43 [com.alibaba.druid.pool.DruidDataSource:1003] - {dataSource-1} inited
+2021-02-05 10:23:44 [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-05 10:23:44 [com.nykj.dataconversion.conf.Swagger.SwaggerConfig:29] - Swagger初始化
+2021-02-05 10:23:44 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:23:44 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2021-02-05 10:23:45 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-9001"]
+2021-02-05 10:23:45 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 9001 (http) with context path '/dataConversion'
+2021-02-05 10:23:45 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed
+2021-02-05 10:23:45 [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+2021-02-05 10:23:45 [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references
+2021-02-05 10:23:45 [org.springframework.boot.StartupInfoLogger:61] - Started DataConversionApplication in 4.159 seconds (JVM running for 4.922)
+2021-02-05 10:23:53 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 10:23:53 [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet'
+2021-02-05 10:23:53 [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 1 ms
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/doc.html
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/i18n.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/jquery-1.9.1.min.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace/bootstrap.min.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace/ace.min.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/style.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/docco.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/styles/default.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/iconfont/iconfont.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/css/layui.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/sbuadmin.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/editormd.min.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/layer.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/highlight/highlight.pack.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/template-web.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/marked.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/axios.min.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/layui.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ace-editor/ace.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/showdown.min.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/async.min.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/jquery/md5.min.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/sbuadmin.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/layer.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/element.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/treetable.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/table.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/laypage.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/form.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/layui/lay/modules/util.js
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/swagger-resources
+2021-02-05 10:23:53 [com.nykj.dataconversion.filter.DecryptFilter:38] - ---------------进入到DecryptFilter---------------/dataConversion/v2/api-docs
+2021-02-05 10:24:07 [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:24:07 [com.alibaba.druid.pool.DruidDataSource:1948] - {dataSource-1} closing ...
+2021-02-05 10:24:07 [com.alibaba.druid.pool.DruidDataSource:2020] - {dataSource-1} closed
